@@ -11,3 +11,10 @@ name = "albert einstein"
 message = name.title() + 'once said, "A person who never made a mistake never tried anything new."'
 
 print(message)
+
+
+name_1 = "  zhua "
+print(name_1)
+print(name_1.lstrip())
+print(name_1.rstrip())
+print(name_1.strip())
